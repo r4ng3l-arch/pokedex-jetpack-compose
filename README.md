@@ -5,7 +5,7 @@ A modern Pokedex app built using Jetpack Compose, following MVVM architecture, a
 ## Screenshots
 ![Pokedex Screenshot](https://github.com/r4ng3l-arch/pokedex-jetpack-compose/blob/main/previews/pokedex_example.png)
 
-## Tech Stack & Open-source Libraries
+## Tech Stack
 - **Jetpack Compose**: For building declarative UI.
 - **Koin**: Dependency injection framework.
 - **Coroutines & Flow**: For managing asynchronous data streams.
@@ -27,6 +27,13 @@ This app integrates with the [PokeAPI](https://pokeapi.co/), an open-source API 
 Key API endpoints:
 - `/pokemon`: Retrieves a list of all Pokémon.
 - `/pokemon/{id}`: Retrieves details about a specific Pokémon, including types, abilities, and sprites.
+
+## Acknowledgments
+The GUI design of this project is inspired by:
+- [**skydoves/pokedex-compose**](https://github.com/skydoves/pokedex-compose)
+- [**Philipp Lackner's YouTube channel**](https://www.youtube.com/@PhilippLackner)
+
+However, all the underlying logic and implementation are original to this project.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
